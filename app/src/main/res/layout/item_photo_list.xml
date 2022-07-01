@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="4dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/storeImg"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/placeholder"
+        app:tint="#EBEBEB"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/storeImg"
+        android:layout_alignBottom="@id/storeImg"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/storeImg"
+        android:layout_toStartOf="@id/edit_delete_sec"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/imgName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:text="xyz" />
+
+        <TextView
+            android:id="@+id/imgCreatedDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="18sp"
+            tools:text="create at 10 may 2022" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/edit_delete_sec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/action_edit"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_baseline_edit_24"
+            tools:ignore="ContentDescription" />
+
+        <ImageButton
+            android:id="@+id/action_delete"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_baseline_delete_outline_24"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+
+</RelativeLayout>

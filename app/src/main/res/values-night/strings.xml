@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="splash_background_image">splash background image</string>
+    <string name="test_min_app">Test Min App</string>
+    <string name="billeddeling_app">Billeddeling app</string>
+    <string name="login_backgroung">login backgroung</string>
+    <string name="facebook_sign_in">Facebook sign In</string>
+    <string name="google_sign_in">Google sign In</string>
+    <string name="exit">Exit</string>
+    <string name="photos">Photos</string>
+    <string name="profile">Profile</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="type_to_search">Type to search...</string>
+    <string name="submit">Submit</string>
+    <string name="date">Date</string>
+    <string name="name">Name</string>
+    <string name="edit_photo">Edit Photo</string>
+    <string name="update">Update</string>
+</resources>
